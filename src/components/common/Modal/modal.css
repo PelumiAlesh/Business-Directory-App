@@ -1,0 +1,30 @@
+.modal .modal-main {
+    display: flex;
+    flex-direction: row;
+}
+.second-div {
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 36%;
+}
+.second-div .modal-name {
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+.contact-div {
+    margin: 70px 2rem 0 10px;
+}
+.phone, .email, .webUrl {
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.closeModal-btn {
+    height: 2rem;
+    position: absolute;
+    width: 2rem;
+    right: 0;
+    font-size: 9px;
+    font-size: 22px;
+}

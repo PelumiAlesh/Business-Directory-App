@@ -1,0 +1,31 @@
+.fixed-sidebar, .layout-body{
+    display: inline-block;
+    vertical-align: top;
+    height : calc(100vh - 67px);
+    overflow: auto;
+    
+}
+.fixed-sidebar{
+    width: 20%;
+    background-color: rgb(226, 226, 226);
+    margin-right: 40px;
+}
+.layout-body{
+    width: 68%;
+    padding: 10px;
+
+}
+.admin-layout-header{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(90, 128, 118);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.fixed-sidebar a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+
+
+}

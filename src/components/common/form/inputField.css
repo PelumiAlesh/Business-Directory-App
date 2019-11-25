@@ -1,0 +1,24 @@
+.input-wrap {
+    position: relative;
+    margin-bottom: 20px;
+    width: 350px;
+}
+.input-wrap label {
+    font-size: .8rem;
+    padding-left: .3rem;
+    margin-bottom: 1rem;
+}
+
+.input-wrap input {
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid rgb(26, 25, 25);
+    padding: 5px;
+}
+
+.input-wrap input:focus {
+    border: 1px solid rgb(61, 149, 250);
+    font-size: 1.1rem;
+}

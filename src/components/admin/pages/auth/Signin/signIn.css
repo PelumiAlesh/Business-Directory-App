@@ -1,0 +1,42 @@
+.center {
+    width: 21rem;
+    height: 30rem;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+
+}
+.center img {
+    padding-left: 4rem;
+}
+.center p {
+    text-align: center;
+}
+.login-text {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+#submit-btn {
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 351px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(61, 149, 250);
+    color: #fff;
+}
+#submit-btn:hover {
+    background-color: rgb(74, 157, 251);
+}
+
+form p {
+    margin-top: 1rem;
+}
+form p a{
+    text-decoration: none;
+    color: rgb(61, 149, 250);
+}

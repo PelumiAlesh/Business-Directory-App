@@ -1,0 +1,40 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-container .logo {
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.auths {
+    margin-right: 4rem;
+    margin-top: 1.5rem;
+}
+.auths a {
+    margin-right: 2rem;
+}
+
+#login-link {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: .8rem;
+    color: #000000;
+}
+#login-link:hover {
+    color: #78a2da;
+}
+#signup-link {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: .8rem;
+    border: 1px solid #000000;
+    padding: .7rem;
+    color: #000000;
+    transition: all ease 0.3s;
+}
+#signup-link:hover {
+    color: #fff;
+    border: 1px solid #78a2da;
+    background-color: #78a2da;
+}
