@@ -364,7 +364,7 @@ const login = (email, password) => {
     }
     return false
 }
-const logout = (email, password) => {   
+const logout = () => {   
     localStorage.removeItem(auth_key)
 }
 

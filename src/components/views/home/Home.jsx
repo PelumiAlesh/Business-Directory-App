@@ -27,6 +27,11 @@ export class Home extends Component {
         this.setState({
             directoryData: nextProps.directories
         })
+        const dirData = data.getData();
+        this.setState({
+            directoryData: dirData.directories,
+            categories: dirData.categories
+        });
     }
 
     onChange = (e) => {
